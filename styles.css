@@ -21,25 +21,27 @@
 #dashboard{
 display: grid;
 padding-left: 10px;
-background-color: darkcyan;
+background-color: #475569;
+color:white;
 }
 
 #home{
 margin-left: -10px;
-background-color: darksalmon;
+background-color:#475569;
+color:white;
 }
 
 #settings{
     padding-left: 10px;
+    background-color: #475569;
+    margin-left: -20px;
+    color:white;
 }
 
 #blank{
     padding-left: 10px;
-}
-
-#settings{
-    margin-left: -20px;
-background-color: darkseagreen;
+    background-color: #475569;
+    color:white;
 }
 
 #main {
@@ -50,7 +52,7 @@ background-color: darkseagreen;
 }
 
 #upper-main {
-    background-color: bisque;
+    background-color:white;
     display: grid;
     grid-template-rows: 1fr 1fr;
 }
@@ -68,7 +70,7 @@ background-color: darkseagreen;
 }
 
 #your-projects{
-background-color: rgb(232, 226, 226);
+background-color:#e5e7eb;
 }
 
 #your-projects h4 {
@@ -81,7 +83,7 @@ grid-gap: 20px;
 padding-bottom: 50px;
 padding-left: 20px;
 padding-right: 20px;
-background-color: rgb(232, 226, 226);
+background-color: #e5e7eb;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: 1fr 1fr 1fr;
 margin-top: -15px;
@@ -102,30 +104,30 @@ margin-top: -15px;
 }
 
 #announcments{
-background-color: rgb(232, 226, 226);
+background-color: #e5e7eb;
 }
 
 #announcments-lower{
 display: grid;
 grid-template-rows: 4fr 1fr 4fr;
-background-color:rgb(232, 226, 226);
+background-color:#e5e7eb;
 padding-bottom: 50px;
 padding-right: 20px;
 margin-top: -15px;
 }
 
 .box{
-    background-color: yellow;
+    background-color:white;
 }
 
 #search{
-    background-color: rgb(6, 233, 55);
+    background-color:white;
     display: grid;
     grid-template-columns:  2fr 1fr;
 }
 
 #bar{
-    background-color: darkorange;
+    background-color:white;
     padding-left: 10px;
     padding-top: 10px;
 }
@@ -137,7 +139,7 @@ margin-top: -15px;
 }
 
 #icons{
-    background-color: sienna;
+    background-color:white;
 }
 
 .box-up{
@@ -193,6 +195,8 @@ li{
 
   button {
     margin-left: 15px;
+    background-color: #475569;
+    color:white;
   }
 
   #icons{
