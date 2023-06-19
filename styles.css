@@ -23,10 +23,26 @@ display: grid;
 padding-left: 10px;
 background-color: #475569;
 color:white;
+margin-left: -12px;
 }
 
-#home{
+#dashboard li {
+    font-size: larger;
+}
+
+#mask{
+padding-top: 20px;
+}
+
+#mask-heading{
+display: grid;
+justify-content: start;
 margin-left: -10px;
+}
+
+
+#home{
+margin-left: -5px;
 background-color:#475569;
 color:white;
 }
@@ -94,6 +110,7 @@ margin-top: -15px;
     background-color: rgb(255, 255, 255);
     display: grid;
     grid-template-rows: 2fr 1fr;
+    border-radius: 5px;
 }
 
 
@@ -118,18 +135,21 @@ margin-top: -15px;
 
 .box{
     background-color:white;
+    border-radius: 5px;
 }
 
 #search{
     background-color:white;
     display: grid;
     grid-template-columns:  2fr 1fr;
+    margin-top: -30px;
 }
 
 #bar{
     background-color:white;
     padding-left: 10px;
-    padding-top: 10px;
+    display: grid;
+    align-content: flex-start;
 }
 
 
@@ -150,11 +170,12 @@ margin-top: -15px;
     font-size: small;
     color: rgb(172, 172, 172);
     font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
 
 .box-down {
-    display: grid;
-    justify-content: end;
+    display: inline-flex;
+    justify-content: flex-end;
 }
 
 .box-down p {
@@ -171,6 +192,8 @@ margin-top: -15px;
     margin-top: -25px;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 4fr;
+    padding-left: 30px;
 }
 
 li{
@@ -178,13 +201,15 @@ li{
   }
 
   input {
-    width: 300px;
+    width: 450px;
+    border-radius: 5px;
   }
 
   #alarm {
-    display: grid;
+    display: inline-flex;
     justify-content: end;
     padding-right: 20px;
+    margin-top: 30px;
   }
 
   #push{
@@ -197,8 +222,69 @@ li{
     margin-left: 15px;
     background-color: #475569;
     color:white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 12px;
   }
 
   #icons{
+    display: inline-flex;
     padding:10px;
+  }
+
+  p h3 h4{
+    font-family: 'Roboto', sans-serif;
+  }
+
+  #trending-box p {
+    margin:0 
+  }
+  
+  .inner-box {
+    padding-top: 20px;
+    padding-left: 5px;
+  }
+
+  .p-heading {
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 20px;
+  }
+
+  .box p {
+    margin:0 
+  }
+
+  .p-body{
+    font-size: 12px;
+    color: grey;
+  }
+
+  .text {
+    padding-left: 20px;
+    padding-right:20px;
+  }
+
+  #at1 {
+    padding-left:20px;
+  }
+
+  #at2 {
+    padding-left:20px;
+  }
+
+  #at3 {
+    padding-left:20px;
+  }
+
+  #at4 {
+    padding-left:20px;
+  }
+
+  #type{
+    margin-top: 20px;
   }

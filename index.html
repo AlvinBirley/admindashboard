@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <title>My Website</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
   </head>
   <body id="bod">
     <div id="container">
         <div id="side">
-            <div id="dashboard"><h3>Dashboard</h3></div>
+            <div id="dashboard">
+                <ul style="list-style-image: url(images/icons8-hammerstein.svg)">
+                    <li>Dashboard</li>
+                </ul>
+            </div>
             <div id="home">
-                <ul>
+                <ul style="list-style-image: url(images/icons8-mongrol.svg)">
                     <li>Home</li>
                     <li>Profile</li>
                     <li>Messages</li>
@@ -20,7 +27,7 @@
                 </ul>
             </div>
             <div id="settings">
-                <ul>
+                <ul style="list-style-image: url(images/icons8-twitter.svg)">
                     <li>Settings</li>
                     <li>Support</li>
                     <li>Privacy</li>
@@ -32,13 +39,20 @@
             <div id="upper-main">
                <div id="search">
                 <div id="bar">
-                    <input type="text" placeholder="Search..">
-        
+                    <ul style="list-style-image: url(images/icons8-search.svg)">
+                        <li><input type="text" id="type" placeholder="Search.."></li>
+                    </ul>
                 </div>
-                <div id="alarm"><h4>Morgan Oakley</h4></div>
+                <div id="alarm">
+                    <img class="pic" src="images/icons8-super-mario.svg" alt="icon">
+                    <img class="pic" src="images/icons8-sonic-the-hedgehog.svg" alt="house">
+                    <h4>Morgan Oakley</h4>
+                </div>
             </div>
                <div id="buttons">
-                <div id="icons"><h3>Morgan Oakley</h3>
+                <div id="icons">
+                    <img class="pic" src="images/icons8-bart-simpson.svg" alt="bart simpson">
+                    <p> Hi there, <br> Morgan Oakley (@morgan)</p>
                 </div>
                 <div id="push">
                     <button>New</button>
@@ -54,45 +68,79 @@
                     <div class="item">
                         <div class="box-up"><h4>Super Cool Project</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                             Donec in cursus nunc, placerat lobortis tortor.</p>
+                             Donec in cursus nunc, placerat lobortis tortor. Donec in 
+                             cursus nunc, placerat lobortis tortor. Donec in cursus nunc, placerat lobortis tortor.</p>
                         </div>
-                        <div class="box-down"><p>box-down</p></div>
+                        <div class="box-down">
+                            <img class="pic" src="images/icons8-bart-simpson.svg" alt="bart simpson">
+                            <img class="pic" src="images/icons8-homer-simpson.svg" alt="homer simpson">
+                            <img class="pic" src="images/icons8-lisa-simpson.svg" alt="lisa simpson">
+                        </div>
                     </div>
                     <div class="item">
                         <div class="box-up"><h4>Less Cool App</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Donec in cursus nunc, placerat lobortis tortor. </p>
+                                Donec in cursus nunc, placerat lobortis tortor. Donec in
+                                 cursus nunc, placerat lobortis tortor. Donec in cursus nunc, placerat lobortis tortor.</p>
                         </div>
-                        <div class="box-down"><p>box-down</p></div>
+                        <div class="box-down">
+                            <img class="pic" src="images/icons8-bart-simpson.svg" alt="bart simpson">
+                            <img class="pic" src="images/icons8-homer-simpson.svg" alt="homer simpson">
+                            <img class="pic" src="images/icons8-lisa-simpson.svg" alt="lisa simpson">
+                        </div>
                         </div>
                     <div class="item">
                         <div class="box-up"><h4>Impossible App</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Donec in cursus nunc, placerat lobortis tortor. </p>
+                                Donec in cursus nunc, placerat lobortis tortor. Donec in 
+                                cursus nunc, placerat lobortis tortor. Donec in cursus nunc, 
+                                placerat lobortis tortor.</p>
                         </div>
-                        <div class="box-down"><p>box-down</p></div>
+                        <div class="box-down">
+                            <img class="pic" src="images/icons8-bart-simpson.svg" alt="bart simpson">
+                            <img class="pic" src="images/icons8-homer-simpson.svg" alt="homer simpson">
+                            <img class="pic" src="images/icons8-lisa-simpson.svg" alt="lisa simpson">
+                        </div>
                     </div>
                     <div class="item">
                         <div class="box-up"><h4>Easy Peasy App</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Donec in cursus nunc, placerat lobortis tortor. </p>
+                                Donec in cursus nunc, placerat lobortis tortor. Donec in 
+                                cursus nunc, placerat lobortis tortor. Donec in cursus nunc,
+                                 placerat lobortis tortor.</p>
                         </div>
-                        <div class="box-down"><p>box-down</p></div>
+                        <div class="box-down">
+                            <img class="pic" src="images/icons8-bart-simpson.svg" alt="bart simpson">
+                            <img class="pic" src="images/icons8-homer-simpson.svg" alt="homer simpson">
+                            <img class="pic" src="images/icons8-lisa-simpson.svg" alt="lisa simpson">
+                        </div>
                     </div>
 
                     <div class="item">
                         <div class="box-up"><h4>Ad Blocker</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Donec in cursus nunc, placerat lobortis tortor. </p>
+                                Donec in cursus nunc, placerat lobortis tortor. Donec in 
+                                cursus nunc, placerat lobortis tortor. Donec in cursus nunc,
+                                 placerat lobortis tortor.</p>
                         </div>
-                        <div class="box-down"><p>Box-Down</p></div>
+                        <div class="box-down">
+                            <img class="pic" src="images/icons8-bart-simpson.svg" alt="bart simpson">
+                            <img class="pic" src="images/icons8-lisa-simpson.svg" alt="homer simpson">
+                            <img class="pic" src="images/icons8-lisa-simpson.svg" alt="lisa simpson">
+                        </div>
                     </div>
                     <div class="item">
                         <div class="box-up"><h4>Money Maker</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Donec in cursus nunc, placerat lobortis tortor. </p>
+                                Donec in cursus nunc, placerat lobortis tortor. Donec in 
+                                cursus nunc, placerat lobortis tortor. Donec in cursus nunc,
+                                 placerat lobortis tortor.</p>
                         </div>
-                        <div class="box-down"><p>box-down</p></div>
+                        <div class="box-down">
+                            <img class="pic" src="images/icons8-bart-simpson.svg" alt="bart simpson">
+                            <img class="pic" src="images/icons8-homer-simpson.svg" alt="homer simpson">
+                            <img class="pic" src="images/icons8-lisa-simpson.svg" alt="lisa simpson">
+                        </div>
                     </div>
                     </div>
                 </div>
@@ -100,25 +148,32 @@
                     <div id="announcments"><h4>Announcements</h4></div>
                     <div id="announcments-lower">
                     <div class="box" id="announcement-box">
-                    <div>site
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <div class="text"><p class="p-heading">Site Maintenance</p>
+                        <p class="p-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Donec in cursus nunc, placerat lobortis tortor.</p>
+                            ________________________
                     </div>
-                    <div>day
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        
+                    <div class="text"><p class="p-heading">Community Share Day</p>
+                        <p class="p-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Donec in cursus nunc, placerat lobortis tortor.</p>
+                            ________________________
                     </div>
-                    <div>policy
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <div class="text"><p class="p-heading">Our Policy</p>
+                        <p class="p-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Donec in cursus nunc, placerat lobortis tortor.</p>
                     </div>
                     </div>
                     <div><h4>Trending</h4></div>
                     <div class="box" id="trending-box">
-                        <div>text</div>
-                        <div>text</div>
-                        <div>text</div>
-                        <div>text</div>
+                        <div class="inner-box"><img src="images/icons8-instagram-old.svg" alt="green book mark symbol"></div>
+                        <div class="inner-box" id="at1"><p>@morgan</p><p>Super Cool App</p></div>
+                        <div class="inner-box"><img src="images/icons8-linkedin.svg" alt="blue linked in symbol"></div>
+                        <div class="inner-box" id="at2"><p>@taylor</p><p>World Peace Maker</p></div>
+                        <div class="inner-box"><img src="images/icons8-super-mario.svg" alt="orange mario symbol"></div>
+                        <div class="inner-box" id="at3"><p>@kendall</p><p>Traffic Stopper</p></div>
+                        <div class="inner-box"><img src="images/icons8-sonic-the-hedgehog.svg" alt="green sonic symbol"></div>
+                        <div class="inner-box" id="at4"><p>@marcus</p><p>Mega Ram Machine</p></div>
                     </div>
                     </div>
                 </div>
